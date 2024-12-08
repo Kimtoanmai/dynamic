@@ -7,6 +7,9 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import { Header } from './components/Header';
 
 function App() {
+  const client= new client();
+  client.setProject('=6746d8b0000d82f247dc');
+
   
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
